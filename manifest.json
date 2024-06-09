@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["html2pdf.js","contents.js"],
+      "js": ["html.js","contents.js"],
       "css": ["style.css"]
     }
   ],
